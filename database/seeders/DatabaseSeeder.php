@@ -80,7 +80,5 @@ class DatabaseSeeder extends Seeder
             'email' => 'hotaru@example.com',
             'password' => Hash::make('password'),
         ]);
-
-        \App\Models\User::factory(28)->create();
     }
 }
